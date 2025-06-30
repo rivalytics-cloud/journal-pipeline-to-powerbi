@@ -6,7 +6,7 @@ This project shows how I took raw journal data from the Clarity CBT Thought Diar
 
 ## 🧾 About the Data
 
-The journal data was exported from the Clarity app as a `.json` file. Each entry has the following fields:
+The journal data was exported from the Clarity app as a `.txt` file. Each entry has the following fields:
 
 - `Title` – Name of the journal entry
 - `Mood` – The mood I picked (text or numeric)
@@ -20,7 +20,7 @@ The journal data was exported from the Clarity app as a `.json` file. Each entry
 ## 🛠️ What I Built
 
 ### 1. Cleaned the Data with PySpark
-- Loaded the raw `.json` file into PySpark
+- Loaded the raw `.txt` file into PySpark
 - Broke out values from the activity and emotion lists so each one had its own row
 - Formatted the dates so I could look at entries by day, month, or year
 - Calculated extra info like how long each entry was (word count)
@@ -54,7 +54,7 @@ journal-mood-pipeline/
 │
 ├── data/
 
-│ ├── clarity_raw.json # Sample journal export (anonymized)
+│ ├── clarity_raw.txt # Sample journal export (anonymized)
 
 │ └── processed_journal.csv # Cleaned data for Power BI
 
