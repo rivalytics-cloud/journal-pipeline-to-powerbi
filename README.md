@@ -50,16 +50,25 @@ All of this was done without using machine learning or complex text analysis. I 
 
 ## 🧱 Folder Breakdown
 journal-mood-pipeline/
+
 │
 ├── data/
+
 │ ├── clarity_raw.json # Sample journal export (anonymized)
+
 │ └── processed_journal.csv # Cleaned data for Power BI
+
 │
 ├── notebooks/
+
 │ └── process_with_pyspark.py # Script to clean and format the data
+
 │
 ├── visuals/
+
 │ └── journal_dashboard.pbix # Power BI file with the finished dashboard
+
 │
 ├── requirements.txt
+
 └── README.md
