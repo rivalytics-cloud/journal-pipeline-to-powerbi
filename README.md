@@ -31,6 +31,7 @@ The journal data was exported from the Clarity app as a `.txt` file. Each entry 
 ### 3. Built a Power BI Dashboard
 - Connected the CSV to Power BI
 - Created visuals to help answer specific questions about my journaling habits
+- Check out https://linkedin.com/in/river-wilkinson to view the dashboard
 
 ---
 
@@ -72,3 +73,4 @@ journal-mood-pipeline/
 ├── requirements.txt
 
 └── README.md
+
